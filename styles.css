@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('C:/Users/lavan/OneDrive/Desktop/signup.jpg');
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+index-page {
+    background: url('C:/Users/lavan/OneDrive/Desktop/signup.jpg'); /* Background image for the index page */
+    background-size: cover;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;  /* Makes the section take full viewport height */
+    text-align: center;  /* Centers text inside the contact section */
+    font-size: 30px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #cd1075;
+    padding: 10px 0;
+}
+
+header h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #5cb85c;
+    color: #fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 20px;
+}
+
+.feature {
+    margin: 20px 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
